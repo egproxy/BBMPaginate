@@ -1,0 +1,14 @@
+{
+  "name": "Potatotypr",
+  "version": "0.0.0",
+  "devDependencies": {
+    "jshint": "^2.7.0"
+  },
+  "dependencies": {
+    "express": "4.12.x",
+    "mongodb": "2.0.x"
+  },
+  "scripts": {
+    "lint": "echo $?"
+  }
+}
