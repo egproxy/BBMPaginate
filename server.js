@@ -1,18 +1,9 @@
 "use strict";
 var express = require('express');
 var app = express();
+var MongoDB = require('./includes/database');
 
 app.use(express.static('www'));
-
-var MongoDB = require('mongodb').MongoClient,
-    assert  = require('assert');
-
-var url = "mongodb://localhost:27017/paginate";
-MongoDB.connect(url, function(err, db) {
-  assert.equal(null, err);
-  console.log("Connected to database");
-  
-});
 
 // Sample GET
 app.get('/', function(req, res){

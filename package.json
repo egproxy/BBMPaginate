@@ -5,10 +5,13 @@
     "jshint": "^2.7.0"
   },
   "dependencies": {
-    "express": "4.12.x",
-    "mongodb": "2.0.x"
+    "express": "~4.12",
+    "mongodb": "~2.0",
+    "backbone": "^1.2",
+    "underscore": "~1.6.0"
   },
   "scripts": {
-    "lint": "echo $?"
+    "install": "",
+    "service:start": ""
   }
 }
