@@ -1,5 +1,6 @@
 {
-  "name": "Potatotypr",
+  "private": "true",
+  "name": "BBMPaginate",
   "version": "0.0.0",
   "devDependencies": {
     "jshint": "^2.7.0"
@@ -7,11 +8,10 @@
   "dependencies": {
     "express": "~4.12",
     "mongodb": "~2.0",
-    "backbone": "^1.2",
-    "underscore": "~1.6.0"
+    "underscore": "~1.6.0",
+    "backbone.marionette": "~2.4"
   },
   "scripts": {
-    "install": "",
-    "service:start": ""
+    "install": "./postinstall.sh"
   }
 }
